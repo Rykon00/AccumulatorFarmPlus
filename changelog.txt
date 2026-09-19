@@ -1,0 +1,61 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+  Bugfixes:
+    - Fixed missing technology names for accumulator-farm-plus-tier-1/2/3 (Factorio split the trailing number off as a tech level)
+  Changes:
+    - The farms are now sorted into the Production > Energy tab directly after the accumulator (previously with the furnaces)
+  Info:
+    - Added LICENSE (MIT) with the original AccumulatorFarm copyright notice
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Info:
+    - Renamed to AccumulatorFarm+ (internal name AccumulatorFarmPlus), now a standalone extension. Versioning restarts at 1.0.0.
+    - Based on AccumulatorFarm (MIT) by EliteRamsay - https://mods.factorio.com/mod/AccumulatorFarm
+    - Item, entity, recipe and technology names of the three farms are unchanged, so placed farms keep working.
+  Features:
+    - With Space Age, the original technologies small/medium/large-accumulator-farm (solar-energy) are removed
+    - With Space Age, new technologies accumulator-farm-plus-tier-1/2/3 unlock the three farms after the Electromagnetic Plant
+    - Tier 1 requires Electromagnetic Plant: 1000x (automation, logistic, chemical, space, electromagnetic), 60s
+    - Tier 2 requires Tier 1: 2500x (automation, logistic, chemical, space, 2x electromagnetic), 60s
+    - Tier 3 requires Tier 2: 5000x (automation, logistic, chemical, space, 3x electromagnetic), 60s
+    - Without Space Age the original three technologies and recipes stay as before
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+  Features:
+    - Optional Space Age support ("? space-age" dependency). Without Space Age nothing changes.
+    - With Space Age, all three farms are crafted in the Electromagnetic Plant (recipe category "electromagnetics")
+    - With Space Age, small farm: 10x accumulator + 20x superconductor; buffer 10GJ, input/output 1GW
+    - With Space Age, medium farm: 2x small farm + 20x supercapacitor; buffer 100GJ, input/output 10GW
+    - With Space Age, large farm: 2x medium farm + 40x superconductor + 40x supercapacitor + 100x electrolyte; buffer 1TJ, input/output 100GW
+  Locale:
+    - Added item descriptions for the Space Age tiers
+---------------------------------------------------------------------------------------------------
+Version: 0.0.7
+  Changes:
+    - Updated charging sprite position
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+  Changes:
+    - Updated sprite position
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+  Changes:
+    - Changed Recipe so its possible to send all tiers into space for space age dlc
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+  Changes:
+    - Fixed so you can use mod
+    - Fixed small text in changelog.txt
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+  Changes:
+    - Update to work with 2.0 factorio
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+  Changes:
+    - Tier Colors
+    - Some other changes
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+  Changes:
+    - First Version
