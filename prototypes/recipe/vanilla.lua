@@ -27,7 +27,8 @@ data:extend({
   },
   {
     type = "recipe",
-    category = "basic-crafting",
+    -- 2.0's "basic-crafting" (assembling machines only, no hand crafting) became "advanced-crafting" in 2.1
+    categories = {"advanced-crafting"},
     name = "large-accumulator-farm",
     enabled = false,
     ingredients = 

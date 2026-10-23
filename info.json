@@ -1,13 +1,13 @@
 {
 	"name": "AccumulatorFarmPlus",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"title": "AccumulatorFarm+",
 	"author": "rykon_",
-	"factorio_version": "2.0",
+	"factorio_version": "2.1",
 	"contact": "N/A",
 	"description": "This is a mod that allows one item to be a accumulator farm instead of alot of accumulators taking up space on the map. With Space Age the three tiers are crafted in the Electromagnetic Plant from Fulgora materials, store far more energy and are unlocked by their own technologies after the Electromagnetic Plant. AccumulatorFarm+ is a standalone extension based on AccumulatorFarm (MIT) by EliteRamsay - https://mods.factorio.com/mod/AccumulatorFarm",
 	"dependencies": [
-		"base >= 0.18.1",
+		"base >= 2.1.0",
 		"? space-age"
 	  ]
 }

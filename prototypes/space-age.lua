@@ -40,7 +40,7 @@ for tier_key, ingredient_list in pairs(ingredients) do
 
   local recipe = data.raw.recipe[name]
   recipe.ingredients = ingredient_list
-  recipe.category = "electromagnetics"
+  recipe.categories = {"electromagnetics"}
 
   local source = data.raw.accumulator[name].energy_source
   source.buffer_capacity = override.buffer_capacity
@@ -56,5 +56,5 @@ end
 
 require_prototype("technology", "electromagnetic-plant")
 require_prototype("technology", "electromagnetic-science-pack")
-require_prototype("tool", "electromagnetic-science-pack")
+require_prototype("item", "electromagnetic-science-pack")
 require ("prototypes.technology.space-age")
