@@ -1,5 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
+Date: 2026-10-24
   Factorio 2.1:
     - Ported to Factorio 2.1 (requires base 2.1).
     - Recipes use the new "categories" list: the large farm is crafted in assembling machines only ("advanced-crafting", replaces 2.0's removed "basic-crafting"); with Space Age all three farms are crafted in the Electromagnetic Plant ("electromagnetics").
